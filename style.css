@@ -1,0 +1,185 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+   background-color: #fafafa !important;
+}
+
+#circle {
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+  margin-bottom: 9.5% !important;
+  margin-top: 10% !important;
+}
+
+h1 { font-family: "Helvetica Neue"; font-size: 23px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; } h3 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 23px; }
+
+p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } blockquote { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; } pre { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
+
+.nav-person{
+background-color: #272631;
+padding: 0 !important;
+margin: 0 !important;
+}
+
+.nav-search, .categories, .albums{
+  background-color: #1e1d26;
+}
+
+.nav-search{
+  border: 1px solid #111111;
+}
+
+
+.nav-animation-text{
+  background-color: #1e1d26;
+  border: none;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 20px;
+  color: #a3a2a8;
+  margin: 0;
+  transition: .3s ease;
+}
+
+.nav-animation-text-toggled{
+  background-color: #19181e;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #a3a2a8;
+  margin: 0;
+  border: none;
+  padding-left: 20px;
+  background-image:url(./images/select.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  transition: .3s ease;
+}
+
+
+.searchbar{
+  background-color: #1e1d26;
+  color: #444444;
+  padding-top: 0px !important;
+  font-size: 16px !important;
+  border: none !important;
+  height: 58px;
+  width: 100%;
+}
+
+#icon{
+  background-image:url(./images/search1.png);
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+  text-indent:50px;
+  }
+
+  #icon2{
+    background-image:url(./images/add.png);
+    background-repeat: no-repeat;
+    background-position: 180px 35px;
+  }
+
+.categories-text{
+  color: #d6d5df;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-left: 20px !important;
+  font-weight: 700 !important;
+  margin-bottom:0 !important;
+}
+
+.sidebar{
+background-color: #1e1d26;
+padding: 0 !important;
+margin: 0 !important;
+line-height: 1 !important;
+max-width: 220px !important;
+min-width: 220px !important;
+max-height: 100%;
+}
+
+
+.sizing {
+  background-color: #19181e !important;
+  border: 1px solid #111111;
+  height: 60px;
+  position: relative;
+  margin-top: 130px;
+}
+
+#scale1{
+  position: absolute;
+  top: 20px;
+  left:20px;
+}
+
+#scale2{
+  position: absolute;
+  top: 20px;
+  left:180px;
+}
+
+.button-upload {
+  background-color: rgb(234, 90, 90);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
+  width: 160px;
+  height: 36px;
+  border: none;
+  border-radius: 30px;
+  margin-bottom: 13% !important;
+  margin-top: 5% !important;
+}
+
+.form-control-lg {
+background-color: #1e1d26;
+color: #444444;
+padding: 0 !important;
+font-size: 1em !important;
+border: none !important;
+height: 54px;
+}
+.pictureHover:hover .overlay {
+  opacity: 0.8;
+  display:block;
+
+  }
+
+  .pictureHover {
+    position: relative;
+    z-index: 0;
+    margin:0;
+  }
+
+.pictureShadow:hover{
+  -webkit-box-shadow: 0px -5px 18px 3px rgba(0,0,0,0.76);
+-moz-box-shadow: 0px -5px 18px 3px rgba(0,0,0,0.76);
+box-shadow: 0px -5px 18px 3px rgba(0,0,0,0.76);
+transition: .4s ease;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+
+.overlay {
+display: block;
+position: absolute;
+background-color: #B7B7B7;
+top: 71%;
+bottom: 0;
+height: 25px;
+width: 94.5%;
+opacity: 0;
+transition: .6s ease;
+pointer-events: none;
+color: #ffffff;
+}
+
+.gallery-part{
+  padding: 10px !important;
+  }
+
+.date{
+color: #cccccc;
+}
